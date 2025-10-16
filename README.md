@@ -25,7 +25,7 @@ npm install
 3. Настройте конфигурацию:
 ```bash
 cp config.ini.example config.ini
-# отредактируйте config.js с вашими настройками
+# отредактируйте config.ini с вашими настройками
 ```
 
 4. Запустите бота:
@@ -65,4 +65,3 @@ token = your_telegram_bot_token_here
     bot_token: "your_telegram_bot_token_here"
   }
 };
-```
