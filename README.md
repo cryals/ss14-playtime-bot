@@ -61,28 +61,6 @@ token = your_telegram_bot_token_here
 
 - `player` - информация о игроках
 - `play_time` - статистика времени по ролям
-
-## Лицензия
-
-MIT
-```
-
-## config.js.example
-
-```javascript
-/**
- * Пример конфигурационного файла
- * Скопируйте в config.js и заполните реальными данными
- */
-
-module.exports = {
-  database: {
-    pg_host: "localhost",
-    pg_port: 5432,
-    pg_database: "ss14",
-    pg_username: "root",
-    pg_password: "your_password_here"
-  },
   telegram: {
     bot_token: "your_telegram_bot_token_here"
   }
