@@ -1,0 +1,31 @@
+{
+  "name": "ss14-playtime-bot",
+  "version": "1.0.0",
+  "description": "Telegram bot for SS14 play time statistics with pagination",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js",
+    "dev": "node bot.js",
+    "test": "echo \"No tests specified\" && exit 0"
+  },
+  "keywords": [
+    "telegram",
+    "bot",
+    "ss14",
+    "postgres",
+    "statistics"
+  ],
+  "author": "cryals",
+  "license": "ALL RIGHTS RESERVED",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cryals/ss14-playtime-bot.git"
+  },
+  "dependencies": {
+    "node-telegram-bot-api": "^0.64.0",
+    "pg": "^8.11.3"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}

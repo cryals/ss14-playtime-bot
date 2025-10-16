@@ -1,0 +1,9 @@
+[database]
+pg_host = you_database_host_here
+pg_port = you_database_port_here
+pg_database = you_database_name_here
+pg_username = you_username_here
+pg_password = your_password_here
+
+[telegram]
+token = your_telegram_bot_token_here
